@@ -1,0 +1,15 @@
+{
+  "name": "deel",
+  "version": "1.0.0",
+  "description": "Automated Tests to Deel",
+  "main": "index.js",
+  "scripts": {
+    "cyopen": "cypress open",
+    "cyrun": "cypress run"
+  },
+  "author": "Alif Corrêa",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.2.0"
+  }
+}
