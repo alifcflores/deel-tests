@@ -1,1 +1,11 @@
-{}
+{
+    "baseUrl": "https://app.deel.training",
+    "env":{"API": "https://api.deel.training"},
+    "watchForFileChanges": false,
+    "taskTimeout": 300000,
+    "chromeWebSecurity": false,
+    "pageLoadTimeout": 10000,
+    "defaultCommandTimeout": 4000,
+    "requestTimeout": 10000,
+    "responseTimeout": 10000
+}
