@@ -1,8 +1,0 @@
-name: Automated Tests
-on: [push]
-jobs:
-  Testing:
-    runs-on: ubuntu-latest
-    steps:
-      - run: npm install cypress
-      - run: npm run "./node_modules/.bin/cypress run"
