@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: npm install cypress
-      - run: npm run cypress run
+      - run: npm run "./node_modules/.bin/cypress run"
