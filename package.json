@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cyopen": "cypress open",
-    "cyrun": "cypress run"
+    "cyrun": "cypress run --record --key b987a334-bb6e-427f-a568-82a125a65989 --parallel"
   },
   "author": "Alif Corrêa",
   "license": "ISC",
