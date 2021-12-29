@@ -5,7 +5,9 @@ const data = require('./data');
 class Contracts{
 
     navigateToPage(){
+        cy.intercept('POST', 'https://x.clearbit.com/v1/p').as('clearbit');
         cy.visit('/create');
+        cy.wait('@clearbit');
     }
 
     selectFixedRate(){
