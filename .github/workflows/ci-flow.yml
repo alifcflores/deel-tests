@@ -4,5 +4,5 @@ jobs:
   Testing:
     runs-on: ubuntu-latest
     steps:
-      - run: npx install cypress
-      - run: npx cypress run
+      - run: npm install cypress
+      - run: npm run cypress run
