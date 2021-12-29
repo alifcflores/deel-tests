@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: npm install cypress
-      - run: /app cypress/base:12 "./node_modules/.bin/cypress run --record --key b987a334-bb6e-427f-a568-82a125a65989 --parallel"
+      - run: ./node_modules/.bin/cypress run --record --key b987a334-bb6e-427f-a568-82a125a65989 --parallel
