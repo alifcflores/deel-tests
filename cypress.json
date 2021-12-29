@@ -1,4 +1,5 @@
 {
+    "projectId": "smk9oa",
     "baseUrl": "https://app.deel.training",
     "env":{"API": "https://api.deel.training"},
     "watchForFileChanges": false,
