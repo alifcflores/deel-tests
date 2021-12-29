@@ -6,3 +6,5 @@
 - https://dashboard.cypress.io/
 - user: povaw99333@saturdata.com
 - pass: Deel@202121
+
+(I've already left a finalized test case with video and screenshot for you to see.)
