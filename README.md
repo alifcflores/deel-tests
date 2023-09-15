@@ -1,4 +1,4 @@
-# Technical challenge carried out for Deel company
+## Technical challenge carried out for Deel company
 
 
 #### 1. After clone the project, simple run the command: 
